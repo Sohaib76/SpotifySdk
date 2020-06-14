@@ -5,6 +5,8 @@ import {
 import PlaylistsScreen from '../Playlists/playlists';
 import { ScrollView } from 'react-native-gesture-handler';
 
+//If something wrong push the code///
+
 class HomeScreen extends Component {
 
     constructor(){
@@ -19,7 +21,7 @@ class HomeScreen extends Component {
         }
     }
 
-    accessToken = 'BQAyOwujWQwIbA7bhKLZoI5RXbubufYJqfxiK9Lvj7oYEVPuqU_KcscWjT0QG8HnnYgqtfLuOAc-iCvXpHckva149zVHIexYc3m8CvZmgCBq6nDOV3Taa3c-ooAv7t5qNzZY5IRmOLitytELp30fgcMAB_rEuu5OHiPgG9HrOFN18o81JFVizZk-yO2cyu1Lc63xTnuONi54-4LuF8sTaRffQ0OXHfNJNlOIwiLOTi03gkVGMKtt4EnAc-ntddXucLKq3XmrR0-VCXGEp89KIi5QJFS_xUtd'
+    accessToken = 'BQBPs1ZRPYitNnX-OCauLvsfgNRSpf5A5Npcjgx4AwkaQaT5Vd1G05TJ8NOzB6NZjW09-CQn6zvZJtWmN7vqwhC4_v0-6Div_1D5N2nskwiZ1WS4l9I__meRG0IbCIKDNG1wDpZrNK7fkopCU7xeANOT7CX_BJJ5THrIys_SPMDKMoVqhj1Jcvcc417FdoAt3ZMkYRlifd5uSP4fUJWScl42Jvr2ktGGXe-ejtAF-jU89xu-AJgmghTyJjzBz04KR-2x9klOybpdAivhTVwX6AVX0cPtuKD7'
 
     componentDidMount(){
       // "https://api.spotify.com/v1/me"

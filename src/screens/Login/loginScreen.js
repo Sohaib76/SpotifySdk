@@ -11,8 +11,8 @@ class LoginScreen extends Component {
         const {navigation} = this.props
         return (
             <View>
-                {/* <Button onPress={() => authHandler.onLogin()} title="Press to login"/> */}
-                <Button onPress={() =>navigation.navigate("Home")} title="Click"></Button>
+                <Button onPress={() => authHandler.onLogin()} title="Press to login"/>
+                {/* <Button onPress={() =>navigation.navigate("Home")} title="Click"></Button> */}
             </View>
         );
     }
